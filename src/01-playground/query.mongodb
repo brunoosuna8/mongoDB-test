@@ -1,0 +1,3 @@
+//seleccionamos la db a consultar
+use("sample_training")
+db.zips.find({state:"NY"}).count()
